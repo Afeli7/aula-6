@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+    font-family: Arial;
+    color: chocolate;
+    background-color: greenyellow;
+    font-size: 31px;
+    text-shadow: 6px 4px 6px black;
+    /*background: linear-gradient(red, blue );*/
+    /*background: radial-gradient(red, blue);*/
+}
+
+#d1{ 
+    width: 120px;
+    height: 75px;
+    background-color: aquamarine;
+    color: darkgreen;
+    font-size: 30px;
+    text-shadow: 0px 0px 0px;
+    border: 2px solid rgb(1, 53, 1);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    /*transform: rotate(20deg);*/
+
+}
+#d2 {
+    width: 120px;
+    height: 75px;
+    background-color: rgb(207, 14, 198);
+    color: rgb(66, 0, 50);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: medium;
+    box-shadow: 10px, 10px, 10px red;
+    border-radius: 15px;
+}
+#d3 {
+    width: 140px;
+    height: 115px;
+    background-color: rgb(190, 109, 2);
+    color: rgb(236, 252, 19);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+    border-style: double;
+    float: center;
+
+}
+#d4 {
+    width: 140px;
+    height: 50px;
+    background-color: rgb(0, 82, 107);
+    color: rgb(0, 128, 89);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+    border-style: hidden;
+    animation: animation 5s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+    from{box-shadow: 5px 5px 10px red;}
+    to{box-shadow: 5px 5px 10px blue;}
+}
+
+#bahiamundo{
+    border-radius: 300px;
+    width: 400px;
+    height: 400px;
+    /*background-image: red 10px;*/
+    border: 5px solid rgb(75, 0, 69);
+    animation: animabahia 3s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animabahia {
+    from{box-shadow: 0px 0px 80px blue;}
+    to {box-shadow: 0px 0px 80px rgb(255, 0, 0);}
+}
